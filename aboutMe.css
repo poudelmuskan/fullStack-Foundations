@@ -1,0 +1,107 @@
+/*resetting browser's default css*/
+html, body, h1, h2, h3, ul, ol, p, div{
+    padding:0;
+    border:0;
+    margin:0;
+}
+
+/*general css*/
+html {
+ font-family: 'Dancing Script', cursive; 
+ margin: 20px;
+ color:#484848;
+ background-color: #eaeff9;
+ font-size: 27px;
+}
+h1{
+    font-size: 60px;
+    color: #72a435;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+h2{
+    font-size: 40px;
+    color: #72a435;
+    border-bottom: 1px solid #cccccc;
+    margin: 20px 0 20px 0;
+}
+ul {
+margin: 0 0 0 30px;
+}
+ul li {
+margin: 0 0 10px 0;
+}
+p {
+    margin-bottom:15px; 
+}
+span{
+    font-size: 60px;
+    color: #000000;
+}
+div{
+    margin: 0 0 50px 0;
+}
+header{
+    height: 600px;
+}
+footer{
+    color: #72a435;
+    font-size: 40px;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td{
+    margin: 30px;
+    border: 1px solid #bbbbbb;
+}
+th{
+    padding: 10px 0 10px 0;
+    background-color: #bbbbbb;
+    border-color:#484848; 
+}
+td{
+    padding: 10px 10px 10px 10px;
+}
+
+/*specific css*/
+.navDiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.nav li {
+    display:inline;
+}
+.nav a {
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px;
+    color:#484848;
+}
+.nav a:hover {
+    text-decoration: underline;
+    color:#72a435;
+}
+.introPic{
+    margin: 50px 0 50px 0;
+}
+.intro{
+    padding-left: 100px;
+    font-size: 50px;
+    width: 800px;
+    float: left;
+}
+.profilePic img {
+    height: 300px;
+}
+.fa {
+    font-size: 18px;
+    color: #484848;
+}
+.fa:hover {
+    font-size: 22px;
+    color:#72a435;
+}
