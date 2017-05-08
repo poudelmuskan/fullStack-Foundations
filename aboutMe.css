@@ -64,7 +64,9 @@ th{
 td{
     padding: 10px 10px 10px 10px;
 }
-
+img{
+    border-radius: 50%;
+}
 /*specific css*/
 .navDiv{
     padding-top: 20px;
